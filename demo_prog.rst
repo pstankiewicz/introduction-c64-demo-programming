@@ -2260,6 +2260,8 @@ system).
 About this document ...
 +++++++++++++++++++++++
 
+Original info:
+
 **An Introduction to Programming C-64 Demos**
 
 This document was generated using the LaTeX2html translator Version 2002-2-1 (1.71)
@@ -2275,6 +2277,10 @@ The command line arguments were::
   latex2html -split 0 demo_prog.tex
 
 The translation was initiated by  on 2004-07-24
+
+Additional info:
+
+Manual conversion from html to rst and upload to github by void at 2017-02-14
 
 .. [#] A couple of guys, who weren't all that good at C, were writing a toy operating system.  They got all sorts of bugs and weird crashes, and didn't know what to do.  After a while they came up with a solution: to re-write the whole kernel without using any pointers at all.  Don't ask me how they did it, but they did get it to work.  Morale of the story: code some C-64 demos, and you'll never run into problems like that. :-)
 
