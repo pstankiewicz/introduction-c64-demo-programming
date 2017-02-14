@@ -2188,15 +2188,15 @@ References
 * Mapping the C-64.  This is a great memory map, with thorough explanations of all addresses in the C-64.  It should be available at Project 64 (which also has some other useful documents): `<http://project64.c64.org/index.html>`_.
 * Programmer's Reference Guide.  This one has a nice table of opcodes, with cycle counts, addressing modes etc.  Most of the book is pretty useless, though.  This one should also be available at Project 64: `<http://project64.c64.org/index.html>`_.
 * All About Your C-64.  This is a document put together by Ninja/The Dreams, which can be really handy.  Especially the HTML version is nice to have available when coding, and you can't remember quite which bit it was that you had to fiddle with to achieve something.  This one's available from the The Dreams' home page at `<http://www.the-dreams.de/>`_.
-* The MOS 6567/6569 Video Controller (VIC-II) and its Application in the C-64, by Christian Bauer.  This article should contain everything that is known about the VIC. There is a text version available at (it's also available in HTML somewhere else): `<ftp://ftp.funet.fi/pub/cbm/documents/chipdata/VIC-Article.gz>`_.
+* The MOS 6567/6569 Video Controller (VIC-II) and its Application in the C-64, by Christian Bauer.  This article should contain everything that is known about the VIC. There is a text version available at (it's also available in HTML somewhere else): `<ftp://ftp.zimmers.net/pub/cbm/documents/chipdata/VIC-Article.gz>`_.
 
 Magazines with Tutorials
 ------------------------
 
 
-* C=Hacking.  Great online magazine with articles about everything concerning CBM's 8 bit computers.  In some of the early issues there are articles by Pasi "Albert" Ojala on demo effects.  There's also a multipart Assembler tutorial in the first issues.  Available from funet: `<ftp://ftp.funet.fi/pub/cbm/magazines/c=hacking/>`_.
+* C=Hacking.  Great online magazine with articles about everything concerning CBM's 8 bit computers.  In some of the early issues there are articles by Pasi "Albert" Ojala on demo effects.  There's also a multipart Assembler tutorial in the first issues.  Available from zimmers: `<ftp://ftp.zimmers.net/pub/cbm/magazines/c=hacking/>`_.
 * Discovery.  I've only found three issues of this mag, but it has some nice demo-related articles, which you can learn a lot from.  Like C=Hacking, the mag consists of ASCII text files that you can download off the Internet.  Available from The Fridge: `<http://www.ffd2.com/fridge/discovery/>`_.
-* Coders World.  This is a disk mag, ie. a mag that you run on your C-64.  Three issues were released, and they have a lot of simple code examples and explanations of how to make cool effects.  This is a good resource for beginners.  When you've learned a bit about the C-64, the info in this mag may seem a bit too basic.  You can find the first two issues at eg. funet: `<ftp://ftp.funet.fi/pub/cbm/magazines/disk/c64/>`_. The third one is a bit hard to find.  You can get it from me if you can't find it on the net.
+* Coders World.  This is a disk mag, ie. a mag that you run on your C-64.  Three issues were released, and they have a lot of simple code examples and explanations of how to make cool effects.  This is a good resource for beginners.  When you've learned a bit about the C-64, the info in this mag may seem a bit too basic.  You can find the first two issues at eg. zimmers: `<ftp://ftp.zimmers.net/pub/cbm/magazines/disk/c64>`_. The third one is a bit hard to find.  You can get it from me if you can't find it on the net.
 
 URLs
 ----
@@ -2211,7 +2211,7 @@ else, just do a web search.
 
 * `<ftp://c64.rulez.org/pub/c64/>`_
 * `<ftp://utopia.hacktic.nl/pub/c64/>`_
-* `<ftp://ftp.elysium.pl/>`_
+* `<http://www.elysium.filety.pl/>`_
 
 Contacting the Author
 ---------------------
