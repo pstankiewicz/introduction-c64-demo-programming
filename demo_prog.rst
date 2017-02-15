@@ -3,9 +3,9 @@ An Introduction to Programming C-64 Demos
 
 .. class:: center
 
-Puterman
+**Puterman**
 
-puterman at fairlight st
+*puterman at fairlight st*
 
 aka Linus Åkerlund
 
