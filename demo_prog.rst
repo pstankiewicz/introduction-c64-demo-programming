@@ -179,6 +179,39 @@ hardware access etc.  Demos for more powerful platforms are more about design
 than code these days anyway.  But this isn't the right place to rant about
 that, so I removed it.
 
+*Removed rant starts here*
+
+That's why it's meaningless to start writing demos on a modern
+computer: it's too easy to make stuff that looks impressive, it's too
+easy to fool people into thinking that you've done something
+impressive, so you really don't have the right sort of motivation to
+actually write good code.  Instead you're pushed in another direction,
+towards writing large programs, which will require that you use
+abstraction, which probably means that you'll use some high level
+language, and then you're not even close to programming demos.
+
+High level languages are nice, they make it easy to create utility
+programs, and make them secure and robust.  But if you're writing a
+program that displays graphics effects, that are written in a high
+level language, don't try to fool anyone that you're writing a demo.
+A demo is never written in a high level language. [#]_
+
+Why am I making such a strong point about this?  Because a demo isn't
+a <B>program</B>, it's something else.  In what way does a demo
+differ from a program?  A demo has to take over the computer and bang
+directly on the hardware, it does not run under an operating system.
+This also means that it will have to take care of the things that the
+operating system would take care of, if you were writing a normal
+program, like interrupt handling and I/O.  
+
+Anyway, I shouldn't spend too much time on this, just believe me, it's
+much better to learn to program the C-64, before you move on to more
+modern [#]_ architectures.  I'm not putting them down, a workstation is good for
+lots of things, and I spend quite a lot of my time writing code in
+high level languages, but you can never run a demo under a real
+operating system.  Okay, let's move on to some actual programming.
+
+*Removed rant ends here*
 
 Learning Machine Language
 +++++++++++++++++++++++++
@@ -2243,7 +2276,7 @@ friends, relatives, pets and random gamer lamers.
 
 I'll make this document available on my home page, which will
 hopefully be available for a long time at
-`<http://user.tninet.se/~uxm165t/>`_.  That might change,
+`<http://www.puterman.se/demo_prog/demo_prog.html>`_.  That might change,
 though, and if you decide to upload it somewhere else, please tell me
 about it, so that I can add a URL here.
 
@@ -2283,6 +2316,10 @@ Additional info:
 Manual conversion from html to rst and upload to github by void at 2017-02-14
 
 .. [#] A couple of guys, who weren't all that good at C, were writing a toy operating system.  They got all sorts of bugs and weird crashes, and didn't know what to do.  After a while they came up with a solution: to re-write the whole kernel without using any pointers at all.  Don't ask me how they did it, but they did get it to work.  Morale of the story: code some C-64 demos, and you'll never run into problems like that. :-)
+
+.. [#] I've heard someone say that some PC demos these days are written in C or C++, but of course, if that's true, then we're not talking about demos anymore.
+
+.. [#] What's modern is another thing that can be discussed forever. A C-64 is about as modern as an IBM PC clone.
 
 .. [#] This code should be pretty assembler neutral, ie. you can use whichever assembler you want.  You can't type this stuff into a monitor, though, as it uses labels.  If you're going to use a monitor, you have to change the **JMP** instructions into jumps to absolute addresses, ie. change **JMP loop** into **JMP $1000**.  You also need to remove the line * = $1000, which just means that the code should begin at the address $1000.
 
